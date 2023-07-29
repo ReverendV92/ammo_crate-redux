@@ -1,0 +1,9 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/items/ammocrate_items
+
+	$halflambert 1
+
+}

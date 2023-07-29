@@ -1,0 +1,23 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/items/ammocrate_smg1altfire
+
+	$surfaceprop metal_box
+
+	$color2 "[ 1 1 1 ]"
+	proxies
+	{
+
+		Equals
+		{
+
+			srcvar1 $color2 // disable proxies
+			resultVar $color
+
+		}
+
+	}
+
+}

@@ -1,0 +1,23 @@
+
+vertexlitgeneric
+{
+
+	$basetexture wood/woodwall005a
+
+	$surfaceprop wood_panel
+
+	$color2 "[ 0.9 0.9 0.9 ]"
+	proxies
+	{
+
+		Equals
+		{
+
+			srcvar1 $color2 // disable proxies
+			resultVar $color
+
+		}
+
+	}
+
+}

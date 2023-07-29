@@ -1,0 +1,56 @@
+
+$origin 0 0 16 0
+
+$opaque
+
+$surfaceprop metal_box
+
+$contents solid
+
+$cdmaterials models/items
+
+$sequence idle {
+	anims/idle
+	fps 1
+}
+
+$sequence idle_open {
+	anims/idle_open
+	fps 1
+}
+
+$sequence open {
+	anims/open_new
+	{ event AE_AMMOCRATE_PICKUP_AMMO 30 "" }
+	fps 30
+}
+
+$sequence close {
+	anims/close_new
+	fps 30
+}
+
+$keyvalues
+{
+
+	prop_data
+	{
+
+		allowstatic 1
+
+	}
+
+}
+
+$collisionmodel ammocrate_physics
+{
+
+	$mass 600
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	// $concave
+	$masscenter 0 0 -16
+
+}

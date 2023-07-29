@@ -1,0 +1,14 @@
+
+// This sheet by default in HL2 has a bunch of scaled-down copies of the ammo textures
+// My crates use the actual ammo textures, making it redundant
+// Kept here for legacy support only
+// -V92
+
+vertexlitgeneric
+{
+
+	$basetexture models/items/ammocrate_items
+
+	$halflambert 1
+
+}
