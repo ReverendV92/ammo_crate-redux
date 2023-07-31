@@ -3,3 +3,6 @@
 *.tmp
 *.xbox
 *.mdmp
+*.cache
+*.ini
+*.json
